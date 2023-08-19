@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap_task_2</title>
+    <link rel="icon" href="download.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5 ps-lg-5 mt-lg-2 fw-bold start_bootstrap" href="#"
+          >Start Bootstrap
+        </a>
+        <button
+          class="navbar-toggler p-2 me-md-5 menu_button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span text-dark>Menu <i class="bx bx-menu"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-lg-auto me-lg-5 pe-lg-5 ms-md-4 ps-md-2">
+            <a
+              class="nav-link  ms-3 mt-md-2 features"
+              aria-current="page"
+              href="#"
+              >Features</a
+            >
+            <a class="nav-link ms-3 mt-md-2 features " href="#">Download</a>
+            <a
+              class="btn btn-feedback rounded-pill ms-lg-5 me-md-auto  mt-md-2"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              role="button"
+              aria-disabled="true"
+              ><i class="bx bxs-message-rounded-detail fs-5 px-1"></i> Send Feedback</a
+            >
+          </nav>
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header p-4 tnw">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Send feedback
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-floating mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="floatingPassword"
+                        placeholder="Enter your name"
+                      />
+                      <label for="floatingPassword">Full name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="floatingInput"
+                        mailto:placeholder="name@example.com"
+                      />
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="0987665333"
+                      />
+                      <label for="floatingInput">Phone number</label>
+                    </div>
+                  </div>
+                  <div class="form-floating mx-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea2"
+                      style="height: 200px"
+                    ></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                  </div>
+                  <div class="modal-footer border-top-0">
+                    <button
+                      type="button"
+                      class="btn btn-submit text-light rounded-pill"
+                      style="width: 100%"
+                      disabled
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div >
+    <div class="container-fluid two">
+      <div class="row ">
+        <div class="col-lg-6 col-md-12 mt-lg-5 ps-lg-4  mt-md-5 ps-md-4  two_content mt-5 ">
+          <div class="display-1 fw-bold px-lg-5 mx-lg-5 px-md-5 mx-md-5 mb-3  showcase ">Showcase your app beautifully.</div>
+          <div class="px-lg-5 ms-lg-5 px-md-5 ms-md-5 mb-4 fs-5 ">
+            Launch your mobile app landing page faster with this free, open
+            source theme from Start Bootstrap
+          </div>
+           <div class="pb-5 d-md-block d-lg-flex ms-lg-5 ps-lg-5 ">
+        <img
+              src="google-play-badge.svg"
+              class="apple_button d-md-block d-lg-flex apple_btn apple_bt "
+              style="width: 10.1rem"
+              alt="google"
+            />
+            <img src="app-store-badge.svg" class="ms-lg-2 mt-md-3 mt-lg-0 apple_button" style="width: 10.1rem" alt="apple" />
+       </div>
+        </div>
+          <div class="container d-sm-flex justify-content-sm-center text-center d-md-none d-lg-none">
+            <image
+              class="mbl col-6 m-sm-5 px-sm-5 d-sm-flex  d-lg-none mobile_phon "
+              src="mobile.jfif"
+              height="510px"
+              x="35%"
+              y="90px"
+            ></image>
+          </div>
+        <div class="col-lg-6">
+       <svg class="d-lg-flex d-sm-none mobile d-md-block mt-0 me-0" height="700" width="600">
+            <defs>
+              <linearGradient
+                id="lineargradient"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stop-color="#6610f2" />
+                <stop offset="100%" stop-color="#9f1ae2" />
+              </linearGradient>
+            </defs>
+            <ellipse class=""
+              cx="56%"
+              cy="350"
+              rx="200"
+              ry="200"
+              fill="url(#lineargradient)"
+            ></ellipse>
+            <image
+              class="mbl"
+              href="https://bootstrap2-840b2.web.app/img/mobile.jfif"
+              height="510px"
+              x="35%"
+              y="90px"
+            ></image>
+          </svg>
+          
+        </div>
+      </div>
+    </div>
+    <div class="tnw text-center">
+      <div class="fs-1 display-1 text-light ms-auto me-auto fw-bold showcase col-6 pt-5 pb-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
+      <img src="tnw-logo.svg" class="mb-5" style="width: 7.1rem;" alt="tnw">
+    </div>
+    <div class="container-fluid ">
+      <div class="row ">
+      <div class="col-lg-4">
+         <svg class="d-md-none d-lg-flex mt-0 mobile" height="700" width="500">
+          <defs>
+            <linearGradient
+              id="lineargradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stop-color="#6610f2" />
+              <stop offset="100%" stop-color="#9f1ae2" />
+            </linearGradient>
+          </defs>
+          <ellipse class="d-sm-none d-md-flex"
+            cx="200"
+            cy="350"
+            rx="150"
+            ry="150"
+            fill="url(#lineargradient)"
+          ></ellipse>
+          <image
+            href="https://bootstrap2-840b2.web.app/img/mobile.jfif"
+            height="510px"
+             x="30%"
+            y="90px"
+          ></image>
+        </svg>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-lg-3">
+        <div class="text-center">
+          <i class='bx bx-mobile-alt mobile_icon pt-5'></i>
+          <h3 class="fw-bold mt-4">Device Mockups</h3>
+        <div class="ms-lg-5 me-lg-5 px-lg-4 gift ">Ready to use HTML/CSS device mockups, no Photoshop required!</div>
+        </div>
+        <div class="text-center">
+          <i class='bx bx-gift mobile_icon pt-5'></i>
+          <h3 class="fw-bold mt-4">Free to Use</h3>
+        <div class="ms-lg-5 me-lg-5 px-lg-4 mb-lg-5 gift">As always, this theme is free to download and use for any purpose!</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-lg-3">
+        <div class="text-center">
+          <i class='bx bx-camera mobile_icon pt-5'></i>
+          <h3 class="fw-bold mt-4">Flexible Use</h3>
+        <div class="ms-lg-5 me-lg-5 px-lg-4 gift ">Put an image, video, animation, or anything else in the screen!</div>
+        </div>
+        <div class="text-center">
+          <i class='bx bx-badge-check mobile_icon pt-5'></i>
+          <h3 class="fw-bold mt-4">Open Source</h3>
+        <div class="ms-lg-5 me-lg-5 px-lg-4 mb-lg-5 gift">Since this theme is MIT licensed, you can use it commercially!</div>
+        </div>
+      </div>
+    </div>
+    <svg class="d-md-flex d-sm-none d-lg-none mobile ms-md-5 ps-md-3 mt-0" height="700" width="500">
+          <defs>
+            <linearGradient
+              id="lineargradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stop-color="#6610f2" />
+              <stop offset="100%" stop-color="#9f1ae2" />
+            </linearGradient>
+          </defs>
+          <ellipse class="d-sm-none d-md-flex"
+            cx="200"
+            cy="350"
+            rx="150"
+            ry="150"
+            fill="url(#lineargradient)"
+          ></ellipse>
+          <image
+            href="https://bootstrap2-840b2.web.app/img/mobile.jfif"
+            height="510px"
+             x="30%"
+            y="90px"
+          ></image>
+        </svg>
+    </div>
+    <div class="container d-sm-flex justify-content-sm-center text-center d-md-none d-lg-none">
+            <image
+              class="mbl col-6 m-sm-5 px-sm-5 d-sm-flex d-lg-none mobile_phone  "
+              src="mobile.jfif"
+              height="510px"
+              x="35%"
+              y="90px"
+            ></image>
+          </div>
+    <div class="container-fluid three two">
+      <div class="row">
+        <div class="col-lg-6 web_design three_content">
+          <div class=" display-4 mt-5 pt-lg-5 fw-bold px-lg-5 mx-lg-5 mb-3  showcase ">Enter a new age of web design</div>
+          <div class="px-lg-5 ms-lg-5  mb-4 fs-5 ">
+           This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much. 
+          </div>
+        </div>
+        <div class="col-lg-6 text-center ">
+          <img src="photo-1620207418302-439b387441b0.jpg" class="rounded-circle img-fluid mt-5 ms-lg-5 p-md-5  mb-5" style="width: 32rem;" alt="circle">
+        </div>
+      </div>
+    </div>
+    <div class="bg_image">
+      <div class="bg-color ">
+        <div class="stop_watching col-lg-5 text-light ">
+        <h1>Stop waiting.
+Start building.</h1>
+<a href="#" class="btn mt-lg-5 mt-md-3 btn-outline-light btn-lg btn-transparent rounded-pill" tabindex="-1" role="button" aria-disabled="true">Download for free</a>
+        </div>
+        </div>
+    </div>
+    <div class="tnw text-center">
+      <div class="fs-1 display-1 text-light ms-auto me-auto fw-bold showcase col-lg-6 pt-5 pb-4">Get the app now!</div>
+       <div class="pb-5 d-md-block d-lg-flex justify-content-lg-center ">
+        <img
+              src="google-play-badge.svg"
+              class="apple_button d-md-block d-lg-flex apple_btn "
+              style="width: 10.1rem"
+              alt="google"
+            />
+            <img src="app-store-badge.svg" class="ms-lg-2 mt-md-3 mt-lg-0 apple_button" style="width: 10.1rem" alt="apple" />
+       </div>
+    </div>
+    <footer class="bg-dar">
+      <div class="text-secondary text-center p-5 footer_lin">
+      <div>© Your Website 2023. All Rights Reserved.</div>
+      <a class="text-secondary "  href="#">Privacy </a>
+      <a class="text-secondary ms-2 " href="#">· Terms </a>
+        <a class="text-secondary ms-2 " href="#">· FAQ</a>
+      </div>
+    </footer>
+  </body>
+</html>
+ 
