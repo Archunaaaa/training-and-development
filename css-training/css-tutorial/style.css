@@ -1,0 +1,632 @@
+::selection {
+  color: darkgreen;
+  background-color: darkred;
+}
+.one {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: yellowgreen;
+  list-style-type: none;
+}
+.two {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.three {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: brown;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.four {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+li a {
+  margin-left: 20px;
+  border: 2px solid yellow;
+  color: black;
+  background-color: wheat;
+}
+.new_one {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: black;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.virat {
+  display: flex;
+}
+.rohit {
+  display: flex;
+}
+.new_two {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.gill {
+  display: flex;
+}
+.dk {
+  display: flex;
+}
+.new_three {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.raina {
+  display: flex;
+}
+.dhoni {
+  display: flex;
+}
+.new_four {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.varun {
+  display: flex;
+}
+.arun {
+  display: flex;
+}
+.new_five {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.archuna {
+  display: flex;
+}
+.abarna {
+  display: flex;
+}
+
+.luffyone {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.nivya {
+  display: flex;
+}
+.rabit {
+  display: flex;
+}
+.luffytwo {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.niv {
+  display: flex;
+}
+.rab {
+  display: flex;
+}
+.luffythree {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.abc {
+  display: flex;
+}
+.def {
+  display: flex;
+}
+.luffyfour {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.ni {
+  display: flex;
+}
+.ra {
+  display: flex;
+}
+.note {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.book {
+  width: 50%;
+  background-color: red;
+}
+.pen {
+  width: 50%;
+  background-color: yellow;
+}
+.ak {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.vk {
+  width: 30%;
+  background-color: red;
+}
+.ck {
+  width: 70%;
+  background-color: yellow;
+}
+.ram {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.seetha {
+  width: 70%;
+  background-color: red;
+}
+.geetha {
+  width: 30%;
+  background-color: yellow;
+}
+.monkey {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.songi {
+  width: 40%;
+  background-color: red;
+}
+.sangi {
+  width: 40%;
+  background-color: yellow;
+}
+.sam {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.man {
+  width: 50%;
+  background-color: red;
+}
+.zzy {
+  width: 50%;
+  background-color: yellow;
+}
+.tea {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.coffie {
+  width: 33.3%;
+  background-color: orange;
+}
+.sugar {
+  width: 33.3%;
+  background-color: yellow;
+}
+.Max {
+  width: 33.3%;
+  background-color: green;
+}
+.aravinth {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.aasath {
+  width: 50%;
+  background-color: red;
+}
+.samu {
+  width: 50%;
+  background-color: yellow;
+}
+.aasath img {
+  width: 100%;
+}
+.aravi {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.mari {
+  width: 33.3%;
+  background-color: brown;
+}
+.mahesh {
+  width: 33.3%;
+  background-color: yellow;
+}
+.ramana {
+  width: 33.3%;
+  background-color: green;
+}
+.mahesh img {
+  width: 100%;
+}
+div.static {
+  position: static;
+  border: 3px solid #73ad21;
+}
+#rcorners {
+  border-radius: 25px;
+  border: 2px dashed seagreen;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+#name {
+  border-radius: 25px 50px 15px;
+  background-color: #73ad21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.element {
+  background-image: url(download.jpg), url(bbbb.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+#superimage {
+  background: url(download.1) right bottom no-repeat,
+    url(bbbb.jpg) left top repeat;
+  padding: 20px;
+}
+#p1 {
+  background-color: rgba(111, 0, 13, 0.5);
+}
+#p2 {
+  background-color: rgba(222, 120, 0, 0.1);
+}
+#p3 {
+  background-color: rgba(333, 50, 13, 0.3);
+}
+#p4 {
+  background-color: rgba(121, 10, 0.1);
+}
+#p5 {
+  background-color: rgba(0, 119, 13, 1);
+}
+#p6 {
+  background-color: rgba(120, 0, 150, 0.7);
+}
+#grad1 {
+  height: 150px;
+  background-color: green;
+  background-image: linear-gradient(to right, green, yellow);
+}
+#arch1 {
+  width: 200px;
+  height: 150px;
+  background-color: yellow;
+  background-image: conic-gradient(yellow, pink, grey);
+}
+#luffy1 {
+  width: 200px;
+  height: 150px;
+  background-color: green;
+  background-image: conic-gradient(
+    darkgreen,
+    black,
+    orange,
+    red,
+    pink,
+    darkblue
+  );
+}
+div.card {
+  width: 200px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.9), 0 4px 12px 0 rgba(0, 0, 0, 0.29);
+  text-align: center;
+}
+div.header {
+  background-color: #73ad21;
+  color: blanchedalmond;
+  padding: 20px;
+  font-size: medium;
+}
+div.conterner {
+  padding: 20px;
+}
+.text:hover {
+  transform: rotate(360deg);
+  transition: transform 3s;
+}
+.order {
+  width: 100px;
+  position: relative;
+  height: 100px;
+  background-color: aqua;
+  animation: animation 2s linear infinite normal;
+}
+@keyframes animation {
+  from {
+    background-color: darkred;
+    left: 0px;
+    top: 0px;
+  }
+  to {
+    background-color: green;
+    left: 300px;
+    top: 0px;
+  }
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+.grid {
+  display: grid;
+  background-color: #73ad21;
+  grid-template-columns: 100px 90px 100px;
+  padding: 10px;
+  gap: 10px;
+  animation: mymove 5s infinite;
+}
+.grid div {
+  background-color: aliceblue;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+@keyframes mymove {
+  50% {
+    grid-auto-flow: column;
+  }
+}
+.nav-bar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0%;
+  background-color: black;
+}
+.nav-bar li {
+  float: left;
+}
+.nav-bar li a {
+  display: block;
+  color: white;
+  background-color: black;
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+li a:hover {
+  background-color: darkred;
+}
+ul a {
+  display: block;
+  list-style-type: none;
+  color: rgb(43, 2, 82);
+  background: rgb(209, 151, 5);
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 7px;
+  width: fit-content;
+  font-size: 20px;
+}
+.project {
+  transform-origin: 50px;
+  background-color: darkgoldenrod;
+  padding: 10px;
+  text-emphasis: none;
+}
+button a {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.images {
+  text-align: center;
+}
+div.bookone {
+  width: 100px;
+  height: 100px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.booktwo img {
+  width: 100px;
+  height: 100px;
+}
+
+div.bookthree img {
+  width: 100px;
+  height: 100px;
+}
+
+.cards1 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+
+.cards2 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.cards3 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.carded1 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+
+.carded2 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.carded3 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.car1 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.car2 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.back1 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+.back2 {
+  display: inline-block;
+  width: 300px;
+  height: 280px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.mail {
+  color: darkcyan;
+}
+.arch {
+  display: inline-block;
+  width: 44%;
+}
+.archu {
+  display: inline-block;
+  width: 44%;
+}
+.ab {
+  display: inline-block;
+  width: 44%;
+}
+.cd {
+  display: inline-block;
+  width: 44%;
+}
+.arun {
+  display: inline-block;
+  width: 44%;
+}
+.varun {
+  display: inline-block;
+  width: 44%;
+}
+.ruber {
+  display: inline-block;
+  width: 44%;
+}
+.pencil {
+  display: inline-block;
+  width: 44%;
+}
+label {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
