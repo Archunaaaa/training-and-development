@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Montserrat:wght@500&family=Newsreader:opsz,wght@6..72,600&display=swap");
+.showcase {
+  font-family: "Newsreader";
+}
+.container-fluid .start_bootstrap:hover {
+  color: blue;
+}
+.navbar-nav .features {
+  color: #212529;
+}
+.navbar-nav .features:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+.navbar-nav .btn-feedback {
+  background-color: #2937f0;
+  color: white;
+}
+.navbar-nav .btn-feedback:hover {
+  background-color: #232fcc;
+  color: white;
+}
+.modal-content .modal-footer .btn-submit {
+  background-color: #2937f0;
+}
+.two {
+  background-color: #f8f9fa;
+}
+.two .two_content {
+  text-align: center;
+}
+.three .three_content {
+  text-align: start;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.tnw {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+.circle {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+.mobile_icon {
+  font-size: 72px;
+  background: -webkit-linear-gradient(45deg, #2937f0, #2d2d2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.row .web_design {
+  margin-top: 4rem;
+}
+.bg_image {
+  background-image: url(photo-1620912189865-1e8a33da4c5e.jpg);
+  position: relative;
+  height: 50rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+.bg_image .bg-color {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.stop_watching {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.bg-color .stop_watching h1 {
+  font-size: 5rem;
+}
+.footer_lin a {
+  text-decoration: none;
+}
+.apple_button:hover {
+  cursor: pointer;
+}
+.footer_lin a:hover {
+  text-decoration: underline;
+}
+.bg-dar {
+  background-color: black;
+}
+@media only screen and (min-width: 300px) and (max-width: 570px) {
+  .container-fluid .menu_button {
+    margin-right: 25px;
+  }
+  .navbar-nav .btn-feedback {
+    width: fit-content;
+    margin-left: 10px;
+  }
+  .two .two_content {
+    padding: 4rem;
+  }
+  .container-fluid .gift {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .bg-color .stop_watching h1 {
+    font-size: 3rem;
+    width: 90%;
+    padding-bottom: 2rem;
+  }
+  .mobile {
+    display: none;
+  }
+  .mobile_phone {
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mobile_phon {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+  .apple_button {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+  .two .two_content {
+    /* /margin-left: 20px; */
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .bg-color .stop_watching h1 {
+    font-size: 3rem;
+    width: 60%;
+  }
+  .apple_btn {
+    margin-left: 18.9rem;
+  }
+  .apple_bt {
+    margin-left: 17.9rem;
+  }
+}
