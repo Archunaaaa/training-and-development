@@ -1,0 +1,651 @@
+.menu-head {
+  background-color: rgb(2, 2, 41);
+  text-decoration: none;
+  color: white;
+  width: 70px;
+  height: 100%;
+  position: fixed;
+  border-radius: 7px;
+  font: 16px Montserrat, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu li i {
+  text-decoration: none;
+  color: #ede6e6;
+  margin-left: -30px;
+  padding: 18px;
+  font-size: 15px;
+  text-align: center;
+}
+.menu li i .border {
+  background-color: #363636;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menu-head h2 {
+  text-align: center;
+  border-bottom: 1px solid rgb(236, 236, 236, 0.2);
+  padding: 0px;
+}
+.top-heading {
+  margin-left: 70px;
+  background-color: #ede6e6;
+  height: 100px;
+  border-radius: 7px;
+  font: 16px Montserrat, sans-serif;
+  margin-top: -20px;
+}
+.search input {
+  background-color: #ede6e6;
+}
+.top-heading h2 {
+  padding-top: 35px;
+  margin-left: 20px;
+}
+.home {
+  float: right;
+}
+.top-heading .house .text {
+  margin-top: -100px !important;
+}
+.home li i {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  font-size: 20px;
+  font: 16px Montserrat, sans-serif;
+}
+.home li {
+  list-style-type: none;
+  display: inline;
+}
+.house {
+  margin-top: -55px;
+}
+.rent {
+  border-right: 1px solid black;
+  margin-right: 30px;
+  padding-right: 30px;
+}
+.random {
+  margin-right: 30px;
+}
+.row-one {
+  display: flex;
+  font: 16px Montserrat, sans-serif;
+  margin-left: 70px;
+  background-color: #ede6e6;
+}
+.column-one .basic {
+  opacity: 0.8;
+  color: blue;
+  font: 16px Montserrat, sans-serif;
+}
+.column-one a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  padding: 10px;
+  display: block;
+  font: 16px Montserrat, sans-serif;
+}
+.column-a a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font: 16px Montserrat, sans-serif;
+}
+.reddot {
+  display: inline-block;
+  background-color: red;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  width: 20%;
+  background-color: white;
+  padding: 15px;
+}
+.column-two {
+  width: 50%;
+  background-color: white;
+  margin-left: 1px;
+  padding: 20px;
+  font: 16px Montserrat, sans-serif;
+}
+.column-three {
+  width: 30%;
+  background-color: white;
+  margin-left: 1px;
+  padding-left: 40px;
+  padding: 10px;
+  font: 15px Montserrat, sans-serif;
+}
+.col-75 input {
+  background-color: #ede6e6;
+}
+.mail {
+  color: black;
+}
+.arch {
+  display: inline-block;
+  width: 44%;
+}
+.archu {
+  display: inline-block;
+  width: 44%;
+}
+.rabbit {
+  display: inline-block;
+  width: 100%;
+}
+.ab {
+  display: inline-block;
+  width: 44%;
+}
+.cd {
+  display: inline-block;
+  width: 44%;
+}
+* {
+  box-sizing: border-box;
+}
+input,
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.rat {
+  display: inline-block;
+  width: 100%;
+}
+.ran {
+  display: inline-block;
+  width: 100%;
+}
+.arun {
+  display: inline-block;
+  width: 44%;
+}
+.varun {
+  display: inline-block;
+  width: 44%;
+}
+.ruber {
+  display: inline-block;
+  width: 44%;
+}
+.pencil {
+  display: inline-block;
+  width: 44%;
+}
+.short {
+  display: inline-block;
+  width: 44%;
+}
+label {
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+.header {
+  display: flex;
+  background-color: #ede6e6;
+  padding: 5px;
+  width: 70%;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.Group_Inputs {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Single_Input {
+  width: 50%;
+  background-color: #ede6e6;
+  text-align: center;
+  padding: 5px;
+}
+.Group_Inputs a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.Single_Input a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.column-three {
+  padding: 10px;
+}
+.col-3 {
+  border: 1px solid #ede6e6;
+  width: 80%;
+  padding: 10px;
+}
+.col-3 a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.col-3 p {
+  margin-left: 60px;
+  margin-top: -25px;
+}
+.column-three {
+  padding: 10px;
+}
+.col-4 {
+  border: 1px solid #ede6e6;
+  width: 80%;
+  padding: 10px;
+}
+.col-4 a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.col-4 p {
+  margin-left: 60px;
+  margin-top: -25px;
+}
+.column-three {
+  padding: 10px;
+}
+.col-5 {
+  border: 1px solid #ede6e6;
+  width: 80%;
+  padding: 10px;
+}
+.col-5 a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.col-5 p {
+  margin-left: 60px;
+  margin-top: -25px;
+}
+.column-three {
+  padding: 10px;
+}
+.col-6 {
+  border: 1px solid #ede6e6;
+  width: 80%;
+  padding: 10px;
+}
+.col-6 a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.col-6 p {
+  margin-left: 60px;
+  margin-top: -25px;
+}
+.column-three {
+  padding: 10px;
+}
+.col-7 {
+  border: 1px solid #ede6e6;
+  width: 80%;
+  padding: 10px;
+}
+.col-7 a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.col-7 p {
+  margin-left: 60px;
+  margin-top: -25px;
+}
+.mobile {
+  opacity: 0.2;
+}
+.menu .border {
+  background-color: #363636;
+  border-radius: 5px;
+}
+.button-one {
+  float: right;
+}
+.button-one button {
+  border-radius: 5px;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.button-two {
+  display: inline-block;
+  cursor: pointer;
+}
+.button-three {
+  display: inline-block;
+  cursor: pointer;
+}
+.button-two button {
+  cursor: pointer;
+  background-color: slategray;
+}
+.button-two button:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+.button-three button {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+.button-three button:hover {
+  background-color: green;
+  color: whitesmoke;
+}
+.icons {
+  font-size: 25px;
+}
+.yellow_icons {
+  color: yellow;
+  font-size: 25px;
+}
+.red_icon {
+  color: red;
+  font-size: 25px;
+}
+.search_bar {
+  font-size: 15px;
+}
+.search_bars {
+  font-size: 25px;
+}
+
+/* Responsive mobile */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .menu-head {
+    display: none;
+  }
+  .top-heading {
+    display: none;
+  }
+  .row-one .column {
+    display: none;
+  }
+  .column-three {
+    display: none;
+  }
+  .row-one {
+    font: 16px Montserrat, sans-serif;
+    margin-left: 0px;
+  }
+  .column-two {
+    width: 100%;
+    background-color: white;
+    margin-left: 1px;
+    padding: 20px;
+    font: 16px Montserrat, sans-serif;
+  }
+
+  .col-75 input {
+    background-color: #ede6e6;
+  }
+  .mail {
+    color: black;
+  }
+  .row {
+    display: inline-block;
+    width: 105%;
+  }
+  .arch {
+    display: inline-block;
+    width: 105%;
+  }
+  .archu {
+    display: inline-block;
+    width: 105%;
+  }
+  .rabbit {
+    display: inline-block;
+    width: 105%;
+  }
+  .ab {
+    display: inline-block;
+    width: 105%;
+  }
+  .cd {
+    display: inline-block;
+    width: 105%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  input,
+  select,
+  textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .rat {
+    display: inline-block;
+    width: 105%;
+  }
+  .ran {
+    display: inline-block;
+    width: 105%;
+  }
+  .arun {
+    display: inline-block;
+    width: 105%;
+  }
+  .varun {
+    display: inline-block;
+    width: 105%;
+  }
+  .ruber {
+    display: inline-block;
+    width: 105%;
+  }
+  .pencil {
+    display: inline-block;
+    width: 105%;
+  }
+  .short {
+    display: inline-block;
+    width: 105%;
+  }
+  .button-one {
+    margin-top: 20px;
+  }
+  .button-one button {
+    border-radius: 5px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .button-two {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .button-three {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .button-two button {
+    cursor: pointer;
+    background-color: slategray;
+  }
+  .button-two button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+  .button-three button {
+    cursor: pointer;
+    background-color: darkgreen;
+  }
+  .button-three button:hover {
+    background-color: green;
+    color: whitesmoke;
+  }
+}
+
+/* responsive tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu-head {
+    display: none;
+  }
+  .top-heading {
+    display: none;
+  }
+  .row-one .column {
+    display: none;
+  }
+  .column-three {
+    display: none;
+  }
+  .row-one {
+    font: 16px Montserrat, sans-serif;
+    margin-left: 0px;
+  }
+  .column-two {
+    width: 100%;
+    background-color: white;
+    margin-left: 1px;
+    padding: 20px;
+    font: 16px Montserrat, sans-serif;
+  }
+
+  .col-75 input {
+    background-color: #ede6e6;
+  }
+  .mail {
+    color: black;
+  }
+  .row {
+    display: inline-block;
+    width: 105%;
+  }
+  .arch {
+    display: inline-block;
+    width: 105%;
+  }
+  .archu {
+    display: inline-block;
+    width: 105%;
+  }
+  .rabbit {
+    display: inline-block;
+    width: 105%;
+  }
+  .ab {
+    display: inline-block;
+    width: 105%;
+  }
+  .cd {
+    display: inline-block;
+    width: 105%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  input,
+  select,
+  textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .rat {
+    display: inline-block;
+    width: 105%;
+  }
+  .ran {
+    display: inline-block;
+    width: 105%;
+  }
+  .arun {
+    display: inline-block;
+    width: 105%;
+  }
+  .varun {
+    display: inline-block;
+    width: 105%;
+  }
+  .ruber {
+    display: inline-block;
+    width: 105%;
+  }
+  .pencil {
+    display: inline-block;
+    width: 105%;
+  }
+  .short {
+    display: inline-block;
+    width: 105%;
+  }
+  .button-one {
+    margin-top: 35px;
+    margin-right: 115px;
+  }
+  .button-one button {
+    border-radius: 5px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .button-two {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .button-three {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .button-two button {
+    cursor: pointer;
+    background-color: slategray;
+  }
+  .button-two button:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+  .button-three button {
+    cursor: pointer;
+    background-color: darkgreen;
+  }
+  .button-three button:hover {
+    background-color: green;
+    color: whitesmoke;
+  }
+}
