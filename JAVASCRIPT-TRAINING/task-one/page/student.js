@@ -1,5 +1,6 @@
 // student
 function onload() {
+  console.log("loADING");
   add_table();
 }
 let array = [];
@@ -95,7 +96,7 @@ function submit() {
 }
 function add_table() {
   var v = "";
-  arraly = JSON.parse(localStorage.getItem("array"));
+  array = JSON.parse(localStorage.getItem("array"));
   for (let i = 0; i < array.length; i++) {
     v += "<tr>";
     v += "<td>" + array[i].name + "</td>";

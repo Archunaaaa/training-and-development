@@ -36,6 +36,7 @@ function submit() {
     return false;
   }
   console.log(object);
+  // if (home != undefined || home != null) {
   if (home != undefined) {
     array[home].product = object.product;
     array[home].quantity = object.quantity;
@@ -48,6 +49,11 @@ function submit() {
   add_table();
   localStorage.setItem("array", JSON.stringify(array));
   let locals = JSON.parse(localStorage.getItem("array"));
+  // home = null;
+  document.getElementById("product").value = "";
+  document.getElementById("quantity").value = "";
+  document.getElementById("price").value = "";
+  document.getElementById("total").value = "";
 }
 
 function add_table() {

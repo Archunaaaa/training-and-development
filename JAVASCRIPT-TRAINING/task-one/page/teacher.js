@@ -17,7 +17,7 @@ function submit() {
   if (object.age == "") {
     document.getElementById("qunty").innerHTML = "Enter quantity";
   } else {
-    document.getElementById("qunty").innerHTML = "ok";
+    document.getElementById("qunty").innerHTML = "";
   }
   if (object.gender == "") {
     document.getElementById("pric").innerHTML = "Enter price";
@@ -49,6 +49,10 @@ function submit() {
 
   add_table();
 
+  document.getElementById("name").value = "";
+  document.getElementById("age").value = "";
+  document.getElementById("gender").value = "";
+  document.getElementById("address").value = "";
   // localStorage.setItem("array", JSON.stringify(array));
   // let locals = JSON.parse(localStorage.getItem("array"));
 }
