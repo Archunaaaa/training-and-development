@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page</title>
+    <script src="school.js" defer></script>
+    <link rel="stylesheet" href="school.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg_colour">
+      <div class="container-fluid justify-content-center">
+        <img src="logo.png" alt="icon" />
+        <span class="navbar-brand mb-0 h1"></span>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light colour">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav fs-5 nav fw-bold hover">
+            <li class="nav-item ms-5">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-5 hover">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item ms-5 hover">
+              <a class="nav-link" href="#student">Student</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#teacher">Teacher</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#worker">workers</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="772b2186aa764fa82949b70acff4bb94e1fce52d.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="f_orig.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="school p-3 mt-5">
+      <h1 class="text-center display-3 text-success mt-5">
+        Welcome To Our School
+      </h1>
+      <p class="text-center fs-5">
+        A Laurel School concerns itself with education of the total human
+        being.Knowledge and intellectual capability alone are not sufficient to
+        meet life's challenges. Knowledge and intellectual capability alone are
+        not sufficient to meet life's challenges.
+      </p>
+    </div>
+    <div class="margin">
+      <div class="row mt-4 container ms-5">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 id="teacher" class="card-title">Teacher</h5>
+              <p class="card-text">click down teacher login</p>
+              <a href="#" class="btn btn_colour text-light" onclick="teacher()"
+                >Teacher login</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 id="student" class="card-title">Student</h5>
+              <p class="card-text">click down student login</p>
+              <a href="#" class="btn btn_colour text-light" onclick="student()"
+                >Student login</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 id="worker" class="card-title">Workers</h5>
+              <p class="card-text">click down Workers login</p>
+              <a href="#" class="btn btn_colour text-light" onclick="workers()"
+                >workers login</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact text-center p-2 mt-5">
+      <h1 id="contact" class="text-center display-3 text-success mt-5">
+        Contact Us
+      </h1>
+      <p class="text-center fs-5">
+        Laural Higher Secondary School, Pallikondan, Pattukottai, Thanjavur
+        Dist, Tamil Nadu Phone No: 04373-237800,235444,
+        235733,236273,248639,255861. Mobile No: 9442420307,9443407068,
+        9842659789
+      </p>
+    </div>
+    <div class="about mt-5">
+      <h1 id="about" class="text-center display-3 pt-5 text-success">About</h1>
+      <p class="ms-5 me-5 fs-5 text-start">
+        We visualize our school a close knit family where every need of the
+        child - academic, physical and emotional aspects are met. We strive to
+        promote a warm world of Laurel CBSE School crafted to the mirror which
+        reflects the care and love of the mother, father, brother, sister and
+        friend. We attempt to achieve these by providing three vital components
+        in shaping of the child.
+      </p>
+    </div>
+  </body>
+</html>

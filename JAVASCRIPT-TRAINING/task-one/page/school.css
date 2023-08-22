@@ -1,0 +1,25 @@
+.margin {
+  margin-top: 170px;
+  margin-left: 50px;
+}
+.bg_colour {
+  background-color: lightslategray;
+}
+.card-body .btn_colour {
+  background-color: blueviolet;
+}
+.colour {
+  background-color: lavender;
+}
+.hover li a:hover {
+  background-color: green;
+}
+.school {
+  background-color: gainsboro;
+}
+.contact {
+  background-color: gainsboro;
+}
+.about {
+  background-color: gainsboro;
+}
