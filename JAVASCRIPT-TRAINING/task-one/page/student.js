@@ -1,6 +1,5 @@
 // student
 function onload() {
-  console.log("loADING");
   add_table();
 }
 let array = [];
