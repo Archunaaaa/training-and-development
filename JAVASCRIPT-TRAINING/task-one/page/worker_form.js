@@ -9,10 +9,27 @@ function submit() {
   object.fname = document.getElementById("fname").value;
   object.age = document.getElementById("age").value;
   object.date = document.getElementById("date").value;
+  // const birth = new Date(object.date);
+  // const formatteddob = birth.toLocaleDateString("en-GB");
+  // object["date"] = formatteddob;
   object.town = document.getElementById("town").value;
   object.gender = document.getElementById("gender").value;
   object.pin = document.getElementById("pin").value;
   object.address = document.getElementById("address").value;
+  // if (object.date == "") {
+  //   document.getElementById("birth").innerHTML = "Enter your date of birth";
+  // } else {
+  //   document.getElementById("birth").innerHTML = "";
+  // }
+  // if (object.date !== "") {
+  //   const birth = new Date(object.date);
+  //   if (!isNaN(birth)) {
+  //     const formatteddob = birth.toLocaleDateString("en-GB");
+  //     object.date = formatteddob;
+  //   } else {
+  //     document.getElementById("birth").innerHTML = "Invalid date format";
+  //   }
+  // }
   if (object.name == "") {
     document.getElementById("promo").innerHTML = "Enter student name";
   } else {
@@ -33,6 +50,7 @@ function submit() {
   } else {
     document.getElementById("birth").innerHTML = "";
   }
+
   if (object.town == "") {
     document.getElementById("cty").innerHTML = "Enter your city";
   } else {
@@ -65,7 +83,22 @@ function submit() {
   ) {
     return false;
   }
-  console.log(object);
+  // console.log(object);
+  // object["date"] = date;
+  // const birth = new Date(object.date);
+  // const formatteddob = birth.toLocaleDateString("en-GB");
+  // object["date"] = formatteddob;
+
+  // add_table();
+
+  // document.getElementById("name").value = "";
+  // document.getElementById("fname").value = "";
+  // document.getElementById("age").value = "";
+  // document.getElementById("date").value = "";
+  // document.getElementById("town").value = "";
+  // document.getElementById("gender").value = "";
+  // document.getElementById("pin").value = "";
+  // document.getElementById("address").value = "";
 
   if (edit != undefined) {
     let url = "https://64d60e47754d3e0f13618812.mockapi.io/form/workers";
@@ -103,6 +136,7 @@ function submit() {
         console.log(errorMsg);
       });
   }
+
   localStorage.setItem("array", JSON.stringify(array));
 }
 function Edit(id) {
@@ -127,6 +161,7 @@ function Edit(id) {
         document.getElementById("name").value = array.name;
         document.getElementById("fname").value = array.fname;
         document.getElementById("age").value = array.age;
+        array.date = array.date.split("/").reverse().join("-");
         document.getElementById("date").value = array.date;
         document.getElementById("town").value = array.town;
         document.getElementById("gender").value = array.gender;
@@ -139,4 +174,8 @@ function Edit(id) {
         console.log(errorMsg);
       });
   }
+}
+
+function back() {
+  window.location.href = "workers.html";
 }

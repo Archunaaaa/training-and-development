@@ -1,0 +1,15 @@
+.bg_colour {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 0.6054796918767507) 88%
+  );
+}
+.background_img {
+  background: url(istockphoto-514416224-612x612.jpg);
+  width: 100%;
+  position: fixed;
+
+  height: 100%;
+}

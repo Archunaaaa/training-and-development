@@ -1,0 +1,21 @@
+.bg_colour {
+  background-color: lightslategray;
+}
+.b_colour {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(76, 45, 253, 0.30865687020817156) 100%
+  );
+}
+
+.background_img {
+  background-image: url(/assets/img/3d-rendering-back-school-icon_23-2149589325.avif);
+  width: 80%;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .footer {
+    width: 270px;
+  }
+}

@@ -1,5 +1,5 @@
 .margin {
-  margin-top: 170px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 .bg_colour {
@@ -12,7 +12,10 @@
   background-color: lavender;
 }
 .hover li a:hover {
-  background-color: green;
+  background-color: white;
+}
+.hover .nav-link:hover {
+  color: green;
 }
 .school {
   background-color: gainsboro;
@@ -22,4 +25,37 @@
 }
 .about {
   background-color: gainsboro;
+}
+
+.card_one {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(12, 22, 1, 0.12368697478991597) 0%,
+    rgba(69, 106, 252, 0.39539565826330536) 92%
+  );
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .responsive {
+    display: none;
+  }
+  .start {
+    text-align: start;
+  }
+  .footer {
+    width: 270px;
+  }
+  .mobile {
+    margin-top: 15px;
+  }
+  .margin {
+    margin-top: 50px;
+    /* margin-left: 50px; */
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .footer {
+    width: 765px;
+  }
 }

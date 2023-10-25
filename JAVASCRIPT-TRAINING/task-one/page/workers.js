@@ -4,8 +4,7 @@ function onload() {
 let array = [];
 var edit;
 function add() {
-  window.location.href =
-    "file:///C:/Users/MYPC/html/js_form/page/worker_form.html";
+  window.location.href = "worker_form.html";
 }
 
 function getList() {
@@ -71,4 +70,7 @@ function Delete(id) {
     .catch((errorMsg) => {
       console.log(errorMsg);
     });
+}
+function back() {
+  window.location.href = "school.html";
 }

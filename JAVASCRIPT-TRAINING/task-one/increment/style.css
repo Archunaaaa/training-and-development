@@ -1,0 +1,13 @@
+.background_img {
+  position: fixed;
+  background: url(ocean-sea-waves-with-white-foam-nature-landscape_107791-1563.avif);
+  width: 100%;
+  height: 100%;
+}
+.title {
+  margin-top: 260px;
+}
+
+/* .background_col {
+  background-color: green;
+} */

@@ -14,9 +14,22 @@ function submit() {
   object.gender = document.getElementById("gender").value;
   object.pin = document.getElementById("pin").value;
   object.address = document.getElementById("address").value;
-  const birth = new Date(object.date);
-  const formatteddob = birth.toLocaleDateString("en-GB");
-  object["date"] = formatteddob;
+  // if (object.date === "") {
+  //   document.getElementById("birth").innerHTML = "Enter your date of birth";
+  // } else {
+  //   document.getElementById("birth").innerHTML = "";
+  // }
+
+  // if (object.date !== "") {
+  //   const birth = new Date(object.date);
+  //   if (!isNaN(birth)) {
+  //     const formatteddob = birth.toLocaleDateString("en-GB");
+  //     object.date = formatteddob;
+  //   } else {
+  //     document.getElementById("birth").innerHTML = "Invalid date format";
+  //   }
+  // }
+
   if (object.name == "") {
     document.getElementById("promo").innerHTML = "Enter student name";
   } else {
@@ -28,12 +41,12 @@ function submit() {
     document.getElementById("father").innerHTML = "";
   }
   if (object.age == "") {
-    document.getElementById("qunty").innerHTML = "Enter age";
+    document.getElementById("qunty").innerHTML = "Enter your age";
   } else {
     document.getElementById("qunty").innerHTML = "";
   }
-  if (object.birth == "") {
-    document.getElementById("birth").innerHTML = "Enter date of birth";
+  if (object.date == "") {
+    document.getElementById("birth").innerHTML = "Enter your date of birth";
   } else {
     document.getElementById("birth").innerHTML = "";
   }
@@ -80,6 +93,7 @@ function submit() {
     array[home].pin = object.pin;
     array[home].address = object.address;
   } else {
+    array = [];
     array.push(object);
   }
   localStorage.setItem("array", JSON.stringify(array));
@@ -129,11 +143,14 @@ function Edit(id) {
   document.getElementById("pin").value = array[id].pin;
   document.getElementById("address").value = array[id].address;
 }
-array.date = array.date.split("/").reverse().join("-");
-document.getElementById("date").value = array.date;
+// array.date = array.date.split("/").reverse().join("-");
+// document.getElementById("date").value = array.date;
 function Delete(y) {
   console.log(y);
   array.splice(y, 1);
   localStorage.setItem("array", JSON.stringify(array));
   add_table();
+}
+function back() {
+  window.location.href = "school.html";
 }

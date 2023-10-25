@@ -1,0 +1,9 @@
+.background_img {
+  position: fixed;
+  background: url(Colorful-Geometric-Simple-Background-Image.jpg);
+  width: 100%;
+  height: 100%;
+}
+.title {
+  margin-top: 300px;
+}

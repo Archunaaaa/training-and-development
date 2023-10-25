@@ -15,17 +15,17 @@ function submit() {
     document.getElementById("promo").innerHTML = "";
   }
   if (object.age == "") {
-    document.getElementById("qunty").innerHTML = "Enter quantity";
+    document.getElementById("qunty").innerHTML = "Enter age";
   } else {
     document.getElementById("qunty").innerHTML = "";
   }
   if (object.gender == "") {
-    document.getElementById("pric").innerHTML = "Enter price";
+    document.getElementById("pric").innerHTML = "Enter gender";
   } else {
     document.getElementById("pric").innerHTML = "";
   }
   if (object.address == "") {
-    document.getElementById("amount").innerHTML = "Enter total amt";
+    document.getElementById("amount").innerHTML = "Enter address";
   } else {
     document.getElementById("amount").innerHTML = "";
   }
@@ -53,8 +53,9 @@ function submit() {
   document.getElementById("age").value = "";
   document.getElementById("gender").value = "";
   document.getElementById("address").value = "";
-  // localStorage.setItem("array", JSON.stringify(array));
-  // let locals = JSON.parse(localStorage.getItem("array"));
+
+  // let img = document.getElementById("myDiv").style.backgroundImage;
+  // document.getElementById("demo").innerHTML = img;
 }
 
 function add_table() {
@@ -89,4 +90,7 @@ function Delete(id) {
   console.log(array[id]);
   array.splice(id, 1);
   add_table();
+}
+function back() {
+  window.location.href = "school.html";
 }
