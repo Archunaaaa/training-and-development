@@ -24,6 +24,12 @@ export function Header() {
                 <NavDropdown.Item   href="/usecontextform" to="usecontextform">
                   Use Context
                 </NavDropdown.Item>
+                <NavDropdown.Item   href="/Reduxtable" to="Reduxtable">
+                  Redux
+                </NavDropdown.Item>
+                <NavDropdown.Item   href="/sagalist" to="sagalist">
+                  Saga Api
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

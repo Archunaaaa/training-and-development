@@ -16,7 +16,7 @@ export const getUser = async (id) => {
 export const createUser = async (userData) => {
   try {
     const response = await axios.post(API_URL, userData);
-    return response.data;
+    return response;
   } catch (error) {
     throw error;
   }
@@ -25,7 +25,16 @@ export const createUser = async (userData) => {
 export const updateuser = async (id, userData) => {
   try {
     const response = await axios.put(API_URL + id, userData);
-    return response.data;
+    return response;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export const updateUser = async (id, userData) => {
+  try {
+    const response = await axios.put(API_URL + id, userData);
+    return response;
   } catch (error) {
     throw error;
   }
@@ -48,3 +57,5 @@ export const deleteUser = async (id) => {
     throw error;
   }
 };
+
+

@@ -11,6 +11,10 @@ import { ToastContainer } from "react-toastify";
 import Usecontextform from "./Hooks/Context/API/Usecontextform";
 import Usecontextlist from "./Hooks/Context/API/Usecontextlist";
 import { GlobalProvider } from "./Hooks/Context/API/Contextstate";
+import Reduxform from "./Component/Page/Redux/Reduxcomponent/Reduxform"
+import Reduxtable from "./Component/Page/Redux/Reduxcomponent/Reduxtable"
+import SagaForm from "./Component/Page/Saga/Sagaform";
+import Sagalist from "./Component/Page/Saga/Sagalist"
 
 function App() {
   return (
@@ -39,6 +43,14 @@ function App() {
             />
             <Route exact path="/Usecontextlist" element={<Usecontextlist />} />
             <Route exact path="/Usecontextlist" element={<Usecontextform />} />
+
+            <Route exact path="/Reduxform" element={<Reduxform />} />
+            <Route exact path="/Reduxform/:id" element={<Reduxform />} />
+            <Route exact path="/Reduxtable" element={<Reduxtable />} />
+
+            <Route exact path="/Sagalist" element={<Sagalist />} />
+            <Route exact path="/Sagaform" element={<SagaForm />} />
+            <Route exact path="/Sagaform/:id" element={<SagaForm />} />
           </Route>
         </Routes>
         <ToastContainer />
@@ -46,6 +58,6 @@ function App() {
     </BrowserRouter>
   );
 }
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App />);
 export default App;

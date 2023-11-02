@@ -47,13 +47,13 @@ const Reduxtable = () => {
   const filteredData =
     users && users.employees
       ? users.employees.filter((row) => {
-          const searchText = globalSearchText.toLowerCase();
-          return (
-            (row.name && row.name.toLowerCase().includes(searchText)) ||
-            (row.email && row.email.toLowerCase().includes(searchText)) ||
-            (row.phone && row.phone.toLowerCase().includes(searchText))
-          );
-        })
+        const searchText = globalSearchText.toLowerCase();
+        return (
+          (row.name && row.name.toLowerCase().includes(searchText)) ||
+          (row.email && row.email.toLowerCase().includes(searchText)) ||
+          (row.phone && row.phone.toLowerCase().includes(searchText))
+        );
+      })
       : [];
 
   const clearFilters = () => {
@@ -131,7 +131,6 @@ const Reduxtable = () => {
       });
     });
   };
-
   const exportExcel = () => {
     const worksheet = XLSX.utils.json_to_sheet(users.employees);
     const workbook = XLSX.utils.book_new();
@@ -141,7 +140,7 @@ const Reduxtable = () => {
 
   return (
     <div className="text-center col-10 mx-auto">
-      <div className="container mt-5 datatable-responsive">
+      <div className="container mt-5 pt-4 datatable-responsive">
         <div className="d-md-flex border shadow justify-content-between p-3 my-3">
           <div className="d-flex justify-content-center">
             <Link to="/reduxform">
@@ -308,7 +307,7 @@ const Reduxtable = () => {
             body={(rowData) => (
               <>
                 <div key={rowData.id}></div>
-                <Link to={`/Reduxform/${rowData.id}`}>
+                <Link to={`/reduxform/${rowData.id}`}>
                   <Button
                     type="button"
                     className="mx-1"
