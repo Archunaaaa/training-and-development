@@ -14,21 +14,7 @@ function submit() {
   object.gender = document.getElementById("gender").value;
   object.pin = document.getElementById("pin").value;
   object.address = document.getElementById("address").value;
-  // if (object.date === "") {
-  //   document.getElementById("birth").innerHTML = "Enter your date of birth";
-  // } else {
-  //   document.getElementById("birth").innerHTML = "";
-  // }
-
-  // if (object.date !== "") {
-  //   const birth = new Date(object.date);
-  //   if (!isNaN(birth)) {
-  //     const formatteddob = birth.toLocaleDateString("en-GB");
-  //     object.date = formatteddob;
-  //   } else {
-  //     document.getElementById("birth").innerHTML = "Invalid date format";
-  //   }
-  // }
+ 
 
   if (object.name == "") {
     document.getElementById("promo").innerHTML = "Enter student name";

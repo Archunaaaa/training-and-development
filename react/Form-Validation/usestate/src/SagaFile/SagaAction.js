@@ -49,7 +49,7 @@ export function getidUserRequest(id) {
 }
 
 export function getidUserSuccess(data) {
-  return {    
+  return {
     type: types.GETIDUSER_SUCCESS,
     payload: data,
   };
@@ -85,7 +85,7 @@ export function updateUserError(data) {
 
 export function deleteUserRequest(data) {
   return {
-    type: types.DELETEUSER_REQUEST,
+    type: types.DELETEUSER_REQUEST, 
     payload: data,
   };
 }

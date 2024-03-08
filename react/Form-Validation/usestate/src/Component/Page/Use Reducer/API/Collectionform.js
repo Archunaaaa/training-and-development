@@ -525,32 +525,7 @@ export const Workform = () => {
               <p className="error-message text-danger mt-2">{cpasswordError}</p>
             </div>
             <br />
-            {/* <Form.Field className="col-md-6 p-2">
-              <label className="fw-bold mb-2">Language </label>
-              <select
-                value={language}
-                onChange={(event) => {
-                  dispatch({
-                    type: ActionTypes.SET_FIELD,
-                    fieldName: "language",
-                    fieldValue: event.target.value,
-                  });
-                }}
-                placeholder="Enter Language...."
-                className={`form-control ${
-                  languageError ? "is-invalid" : language ? "is-valid" : ""
-                }`}
-              >
-                <option value="">Select a language</option>;
-                <option value="Tamil">Tamil</option>
-                <option value="English">English</option>
-                <option value="Hindi">Hindi</option>
-                <option value="Hindi">Telugu</option>
-                <option value="Hindi">kannada</option>
-              </select>
-
-              <p className="error-message text-danger mt-2">{languageError}</p>
-            </Form.Field> */}
+           
             <Form.Field className="col-md-6 p-2">
               <label className="fw-bold mb-2">Language </label>
               <select

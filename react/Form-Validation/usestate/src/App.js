@@ -13,7 +13,7 @@ import Usecontextlist from "./Hooks/Context/API/Usecontextlist";
 import { GlobalProvider } from "./Hooks/Context/API/Contextstate";
 import Reduxform from "./Component/Page/Redux/Reduxcomponent/Reduxform"
 import Reduxtable from "./Component/Page/Redux/Reduxcomponent/Reduxtable"
-import SagaForm from "./Component/Page/Saga/Sagaform";
+import Sagaform from "./Component/Page/Saga/Sagaform";
 import Sagalist from "./Component/Page/Saga/Sagalist"
 
 function App() {
@@ -49,8 +49,8 @@ function App() {
             <Route exact path="/Reduxtable" element={<Reduxtable />} />
 
             <Route exact path="/Sagalist" element={<Sagalist />} />
-            <Route exact path="/Sagaform" element={<SagaForm />} />
-            <Route exact path="/Sagaform/:id" element={<SagaForm />} />
+            <Route exact path="/Sagaform" element={<Sagaform />} />
+            <Route exact path="/Sagaform/:id" element={<Sagaform />} />
           </Route>
         </Routes>
         <ToastContainer />

@@ -9,7 +9,7 @@ import {
 } from "../../../Service/MockAPI/MockAPI";
 import { addEmployeeRequest, addEmployeeSuccess, addEmployeeError, getEmployeeSuccess, getEmployeeRequest, getEmployeeError, deleteEmployeeError, deleteEmployeeRequest, deleteEmployeeSuccess, updateEmployeeRequest, updateEmployeeSuccess, updateEmployessError, getidEmployeeSuccess, getidEmployeeError, getidEmployeeRequest } from "../../../Hooks/Reducer/Actionusecontext"
 
-const initialState = {
+ const initialState = {
   employees: [],
   selectedProducts: [],
   employeeId: null
@@ -24,10 +24,7 @@ export const useGlobalContext = () => {
 export const GlobalProvider = ({ children }) => {
   const [stateEmp, dispatch] = useReducer(reducer, initialState);
 
-
-
-
-  const getEmployee = async () => {
+   const getEmployee = async () => {
     dispatch(getEmployeeRequest())
     const res = await getUsers();
     if (res.status === 200 || res.status === 201) {
